@@ -13,3 +13,76 @@ COLOR PALETTE
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Main header styling */
+header {
+    background-color: #0084D6;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo {
+    height: 50px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 20px;
+}
+
+#header-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+#header-text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+#offer-section-1 {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#offer-section-1 p,h3 {
+    color: #000000;
+}
+
+.discount {
+    font-size: 6rem;
+    margin: 20px 0;
+}
+
+
+#offer-section-1 input[type="email"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    width: 80%;
+}
+
+#offer-section-1 button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #0084D6;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
