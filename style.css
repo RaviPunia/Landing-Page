@@ -88,3 +88,57 @@ nav {
     cursor: pointer;
 }
 
+/* Features section styling 
+---------------------------------------*/
+
+.features {
+    background: #fdfdfd;
+    padding: 2rem 0;
+}
+
+.features {
+    text-align: center;
+}
+
+.features .content-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.feature-row {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-row .img-box,
+.feature-row .text-box {
+    flex: 1;
+}
+
+.feature-row .img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-row .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.feature-row .img-box img {
+    max-width: 90%;
+    height: auto;
+}
+
+.feature-row h3 {
+    margin-top: 0;
+}
