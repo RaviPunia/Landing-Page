@@ -14,7 +14,8 @@ COLOR PALETTE
     box-sizing: border-box;
 }
 
-/* Main header styling */
+/* Main header styling 
+---------------------------------------*/
 header {
     background-color: #0084D6;
     color: #fff;
@@ -86,3 +87,4 @@ nav {
     border: none;
     cursor: pointer;
 }
+
