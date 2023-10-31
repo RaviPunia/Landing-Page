@@ -1,0 +1,15 @@
+/*
+COLOR PALETTE
+#0084D6 - Blue
+#0075BE - Dark shade of blue
+#000000 - Black
+*/
+
+/* 1. Global styles
+---------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
