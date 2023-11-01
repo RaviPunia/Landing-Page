@@ -84,7 +84,7 @@ nav {
 }
 
 #offer-section-1 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #495057;
 }
 #offer-section-1 ,h2,h3 {
@@ -119,7 +119,7 @@ nav {
 
 .features {
     background: #fdfdfd;
-    padding: 2rem 0;
+    padding: 5rem 0;
     text-align: center;
 }
 
@@ -180,6 +180,11 @@ nav {
 .bg-grey {
     background-color: #edf2f4;
     padding: 5rem 0;
+}
+
+.bg-grey h2 {
+  font-size: 2.5rem;
+  text-align: center;
 }
   
   .card__container {
