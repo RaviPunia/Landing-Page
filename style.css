@@ -156,3 +156,93 @@ nav {
     margin-top: 0;
 }
 
+/* Testimonial section styling 
+---------------------------------------*/
+
+.bg-grey {
+    background-color: #edf2f4;
+}
+  
+  .card__container {
+    padding-block: 5rem;
+  }
+  
+  .card__content {
+    margin-inline: 1.75rem;
+    border-radius: 1.25rem;
+    overflow: hidden;
+  }
+  
+  .card__article {
+   
+    border-radius: 1.25rem;
+    overflow: hidden;
+  }
+  
+  .card__image {
+    position: relative;
+    background-color: #0084D6;
+    padding-top: 1.5rem;
+    margin-bottom: -.75rem;
+  }
+  
+  .card__data {
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .card__img {
+    width: 180px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+  }
+
+  .card__name {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: .75rem;
+  }
+  
+  .card__description {
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+  }
+  
+  /* Swiper class */
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    content: "";
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: initial;
+    height: initial;
+    font-size: 3rem;
+    color: #0084D6;
+    display: none;
+  }
+  
+  .swiper-button-prev {
+    left: 0;
+  }
+  
+  .swiper-button-next {
+    right: 0;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #0084D6;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #000000;
+  }
+
+
