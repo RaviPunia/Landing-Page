@@ -6,6 +6,7 @@ COLOR PALETTE
 #edf2f4 - Light Grey
 #495057 - Dark Grey
 #fff - White
+##ff9529 - Yellow
 */
 
 /* 1. Global styles
@@ -223,6 +224,9 @@ nav {
     align-items: center;
   }
 
+  .star-rating{
+    color: #ff9529
+  }
   .card__name {
     font-size: 1.2rem;
     color: #000000;
