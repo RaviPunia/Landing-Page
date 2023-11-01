@@ -3,6 +3,8 @@ COLOR PALETTE
 #0084D6 - Blue
 #0075BE - Dark shade of blue
 #000000 - Black
+#edf2f4 - Grey
+#fff - White
 */
 
 /* 1. Global styles
@@ -19,6 +21,10 @@ COLOR PALETTE
 
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Main header styling 
@@ -149,3 +155,4 @@ nav {
 .feature-row h3 {
     margin-top: 0;
 }
+
