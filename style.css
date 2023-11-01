@@ -3,7 +3,8 @@ COLOR PALETTE
 #0084D6 - Blue
 #0075BE - Dark shade of blue
 #000000 - Black
-#edf2f4 - Grey
+#edf2f4 - Light Grey
+#495057 - Dark Grey
 #fff - White
 */
 
@@ -59,7 +60,7 @@ nav {
 }
 
 #header-text h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 20px;
 }
 #header-text p {
@@ -69,32 +70,43 @@ nav {
 #offer-section-1 {
     background-color: #fff;
     padding: 20px;
-    font-size: 2rem;
+   
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#offer-section-1 p,h3 {
+
+#offer-section-1 h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#offer-section-1 p {
+    font-size: 1.5rem;
+    color: #495057;
+}
+#offer-section-1 ,h2,h3 {
     color: #000000;
 }
 
 .discount {
     font-size: 6rem;
-    margin: 20px 0;
+    margin: 0.5rem 0;
 }
 
 
 #offer-section-1 input[type="email"] {
-    padding: 10px;
-    margin-top: 10px;
+    padding: 0.62rem;
+    margin-top: 0.62rem;
     border: 1px solid #000000;
     width: 80%;
 }
 
 #offer-section-1 button {
-    padding: 10px 20px;
-    margin-top: 10px;
+    padding: 0.62rem 1.25rem;
+    margin-top: 1.25rem;
+    font-size: 1rem;
     background-color: #0084D6;
     color: #fff;
     border: none;
@@ -107,10 +119,11 @@ nav {
 .features {
     background: #fdfdfd;
     padding: 2rem 0;
+    text-align: center;
 }
 
-.features {
-    text-align: center;
+.features h2{
+    font-size: 2.5rem;
 }
 
 .features .content-wrap {
@@ -161,6 +174,7 @@ nav {
 
 .bg-grey {
     background-color: #edf2f4;
+    padding: 5rem 0;
 }
   
   .card__container {
@@ -254,7 +268,6 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10rem;
 }
 
 
