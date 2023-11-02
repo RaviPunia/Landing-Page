@@ -195,6 +195,11 @@ nav {
     margin-top: 0;
 }
 
+.feature-row .img-box img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
 /* Testimonial section styling 
 ---------------------------------------*/
 
