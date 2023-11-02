@@ -405,7 +405,9 @@ nav {
       padding: 1rem;
     }
   }
-  
+  .bg-grey h2{
+    font-size: 2rem;
+  }
   /* For medium devices */
   @media screen and (min-width: 768px) {
     .card__content {
@@ -416,6 +418,7 @@ nav {
     .swiper-button-prev {
       display: block;
     }
+  
     
   }
   
