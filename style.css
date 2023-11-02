@@ -200,6 +200,8 @@ nav {
   transform: scale(1.1);
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+
 /* Testimonial section styling 
 ---------------------------------------*/
 
@@ -361,6 +363,41 @@ nav {
   }
 }
 
+
+/*------------------- Responsive styling for features section -----------------------*/
+
+@media (max-width: 768px) {
+  .feature-row {
+      flex-direction: column;
+      align-items: center;
+  }
+.features h2{
+  font-size: 2rem;
+}
+  .feature-row .img-box,
+  .feature-row .text-box {
+      width: 100%;
+      text-align: center;
+  }
+
+  .feature-row .img-box img {
+      max-width: 70%; /* Adjust this percentage based on your design preference */
+      margin-bottom: 1rem;
+  }
+  
+  .features .content-wrap {
+      padding: 0;
+  }
+
+  /* Ensure image is always on top for every feature row */
+  .feature-row .img-box {
+      order: 1;
+  }
+  .feature-row .text-box {
+      order: 2;
+  }
+}
+
   /*------------------- Responsive styling for testimonial section -----------------------*/
 /* For small devices */
 @media screen and (max-width: 320px) {
@@ -379,6 +416,7 @@ nav {
     .swiper-button-prev {
       display: block;
     }
+    
   }
   
   /* For large devices */
