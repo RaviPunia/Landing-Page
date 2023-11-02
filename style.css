@@ -1,6 +1,6 @@
 /*
 COLOR PALETTE
-#0084D6 - Blue
+#0096f3 - Blue
 #0075BE - Dark shade of blue
 #000000 - Black
 #edf2f4 - Light Grey
@@ -76,6 +76,21 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: upDown 3s infinite alternate;
+}
+
+@keyframes upDown {
+  from {
+      transform: translateY(-10px);
+  }
+  to {
+      transform: translateY(10px);
+  }
+}
+
+#offer-section-1:hover {
+  animation-play-state: paused;
+  transform: translateY(0px);
 }
 
 #offer-section-1 h2 {
@@ -112,6 +127,10 @@ nav {
     color: #fff;
     border: none;
     cursor: pointer;
+}
+
+#offer-section-1 button:hover {
+  background-color: #0096f3;
 }
 
 /* Features section styling 
