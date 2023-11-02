@@ -16,77 +16,80 @@ COLOR PALETTE
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Recursive:wght@300;400&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Main header styling 
 ---------------------------------------*/
 header {
-    background-color: #0084D6;
-    color: #fff;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #0084D6;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 nav {
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #logo {
-    height: 50px;
+  height: 50px;
 }
 
 .content-wrapper {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1200px;
-    padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 20px;
 }
 
 #header-text h1 {
-    font-size: 4rem;
-    margin-bottom: 20px;
+  font-size: 4rem;
+  margin-bottom: 20px;
 }
+
 #header-text p {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
 }
+
 #offer-section-1 {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 1.25rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    animation: upDown 3s infinite alternate;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2), 0 6px 6px rgba(0,0,0,0.2);
-    
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 1.25rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: upDown 3s infinite alternate;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
+
 }
 
 @keyframes upDown {
   from {
-      transform: translateY(-10px);
+    transform: translateY(-10px);
   }
+
   to {
-      transform: translateY(10px);
+    transform: translateY(10px);
   }
 }
 
@@ -96,39 +99,42 @@ nav {
 }
 
 #offer-section-1 h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 #offer-section-1 p {
-    font-size: 1.2rem;
-    color: #495057;
+  font-size: 1.2rem;
+  color: #495057;
 }
-#offer-section-1 ,h2,h3 {
-    color: #000000;
+
+#offer-section-1,
+h2,
+h3 {
+  color: #000000;
 }
 
 .discount {
-    font-size: 6rem;
-    margin: 0.5rem 0;
+  font-size: 6rem;
+  margin: 0.5rem 0;
 }
 
 
 #offer-section-1 input[type="email"] {
-    padding: 0.62rem;
-    margin-top: 0.62rem;
-    border: 1px solid #000000;
-    width: 80%;
+  padding: 0.62rem;
+  margin-top: 0.62rem;
+  border: 1px solid #000000;
+  width: 80%;
 }
 
 #offer-section-1 button {
-    padding: 0.62rem 1.25rem;
-    margin-top: 1.25rem;
-    font-size: 1rem;
-    background-color: #0084D6;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  padding: 0.62rem 1.25rem;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  background-color: #0084D6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
 #offer-section-1 button:hover {
@@ -139,61 +145,62 @@ nav {
 ---------------------------------------*/
 
 .features {
-    background: #fdfdfd;
-    padding: 5rem 0;
-    text-align: center;
+  background: #fdfdfd;
+  padding: 5rem 0;
+  text-align: center;
 }
 
-.features h2{
-    font-size: 2.5rem;
+.features h2 {
+  font-size: 2.5rem;
 }
 
 .features .content-wrap {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .feature-row {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .feature-row .img-box,
 .feature-row .text-box {
-    flex: 1;
+  flex: 1;
 }
 
 .feature-row .img-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature-row .text-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
-.feature-row .text-box h3{
-    margin-bottom: 1.5rem;
+
+.feature-row .text-box h3 {
+  margin-bottom: 1.5rem;
 }
 
 .feature-row .img-box img {
-    max-width: 50%;
-    height: auto;
-    border-radius: 25%;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  max-width: 50%;
+  height: auto;
+  border-radius: 25%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .feature-row h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .feature-row .img-box img:hover {
@@ -206,160 +213,164 @@ nav {
 ---------------------------------------*/
 
 .bg-grey {
-    background-color: #edf2f4;
-    padding: 5rem 0;
+  background-color: #edf2f4;
+  padding: 5rem 0;
 }
 
 .bg-grey h2 {
   font-size: 2.5rem;
   text-align: center;
 }
-  
-  .card__container {
-    padding-block: 5rem;
-  }
-  
-  .card__content {
-    margin-inline: 1.75rem;
-    border-radius: 1.25rem;
-    overflow: hidden;
-  }
-  
-  .card__article {
-   
-    border-radius: 1.25rem;
-    overflow: hidden;
-  }
-  
-  .card__image {
-    position: relative;
-    background-color: #0084D6;
-    padding-top: 1.5rem;
-    margin-bottom: -.75rem;
-  }
-  
-  .card__data {
-    background-color: #fff;
-    padding: 1.5rem 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    position: relative;
-    z-index: 10;
-  }
-  
-  .card__img {
-    width: 180px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .star-rating{
-    color: #ff9529
-  }
-  .card__name {
-    font-size: 1.2rem;
-    color: #000000;
-    margin-bottom: .75rem;
-  }
-  
-  .card__description {
-    font-weight: 500;
-    margin-bottom: 1.75rem;
-  }
-  
-  /* Swiper class */
-  .swiper-button-prev:after,
-  .swiper-button-next:after {
-    content: "";
-  }
-  
-  .swiper-button-prev,
-  .swiper-button-next {
-    width: initial;
-    height: initial;
-    font-size: 3rem;
-    color: #0084D6;
-    display: none;
-  }
-  
-  .swiper-button-prev {
-    left: 0;
-  }
-  
-  .swiper-button-next {
-    right: 0;
-  }
-  
-  .swiper-pagination-bullet {
-    background-color: #0084D6;
-    opacity: 1;
-  }
-  
-  .swiper-pagination-bullet-active {
-    background-color: #000000;
-  }
+.card__container {
+  padding-block: 5rem;
+}
+
+.card__content {
+  margin-inline: 1.75rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.card__article {
+
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.card__image {
+  position: relative;
+  background-color: #0084D6;
+  padding-top: 1.5rem;
+  margin-bottom: -.75rem;
+}
+
+.card__data {
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.card__img {
+  width: 180px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-rating {
+  color: #ff9529
+}
+
+.card__name {
+  font-size: 1.2rem;
+  color: #000000;
+  margin-bottom: .75rem;
+}
+
+.card__description {
+  font-weight: 500;
+  margin-bottom: 1.75rem;
+}
+
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: #0084D6;
+  display: none;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: #0084D6;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000000;
+}
 
 
-  /*------------------- Footer Section -----------------------*/
-  footer {
-    background-color: #0084D6;
-    color: #fff;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Footer Section
+  ---------------------------------------*/
+footer {
+  background-color: #0084D6;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*---------------------- Responsive styling for header Section------------------------- */
-  
+
 @media only screen and (max-width: 768px) {
   nav {
-      justify-content: center;
+    justify-content: center;
   }
 
   .content-wrapper {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   #header-text h1 {
-      font-size: 2.5rem;
-      text-align: center;
+    font-size: 2.5rem;
+    text-align: center;
   }
 
   #header-text p {
-      font-size: 1.2rem;
-      text-align: center;
-      br {
-          display: none;
-      }
+    font-size: 1.2rem;
+    text-align: center;
+
+    br {
+      display: none;
+    }
   }
 
   #offer-section-1 {
-      margin-top: 20px;
-      width: 100%; 
-      padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
   }
 
   #offer-section-1 h2 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 
   #offer-section-1 p {
-      font-size: 1rem;
-      text-align: center;
+    font-size: 1rem;
+    text-align: center;
   }
 
   .discount {
-      font-size: 4rem;
+    font-size: 4rem;
   }
 
-  #offer-section-1 input[type="email"], #offer-section-1 button {
-      width: 100%;
+  #offer-section-1 input[type="email"],
+  #offer-section-1 button {
+    width: 100%;
   }
 }
 
@@ -368,70 +379,76 @@ nav {
 
 @media (max-width: 768px) {
   .feature-row {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
-.features h2{
-  font-size: 2rem;
-}
+
+  .features h2 {
+    font-size: 2rem;
+  }
+
   .feature-row .img-box,
   .feature-row .text-box {
-      width: 100%;
-      text-align: center;
+    width: 100%;
+    text-align: center;
   }
 
   .feature-row .img-box img {
-      max-width: 70%; /* Adjust this percentage based on your design preference */
-      margin-bottom: 1rem;
-  }
-  
-  .features .content-wrap {
-      padding: 0;
+    max-width: 70%;
+    margin-bottom: 1rem;
   }
 
-  /* Ensure image is always on top for every feature row */
-  .feature-row .img-box {
-      order: 1;
+  .features .content-wrap {
+    padding: 0;
   }
+
+
+  .feature-row .img-box {
+    order: 1;
+  }
+
   .feature-row .text-box {
-      order: 2;
+    order: 2;
   }
 }
 
-  /*------------------- Responsive styling for testimonial section -----------------------*/
+/*------------------- Responsive styling for testimonial section -----------------------*/
 /* For small devices */
 @media screen and (max-width: 320px) {
-    .card__data {
-      padding: 1rem;
-    }
+  .card__data {
+    padding: 1rem;
   }
-  .bg-grey h2{
-    font-size: 2rem;
+}
+
+.bg-grey h2 {
+  font-size: 2rem;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content {
+    margin-inline: 3rem;
   }
-  /* For medium devices */
-  @media screen and (min-width: 768px) {
-    .card__content {
-      margin-inline: 3rem;
-    }
-  
-    .swiper-button-next,
-    .swiper-button-prev {
-      display: block;
-    }
-  
-    
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
   }
-  
-  /* For large devices */
-  @media screen and (min-width: 1120px) {
-    .card__container {
-      max-width: 1120px;
-    }
-  
-    .swiper-button-prev {
-      left: -1rem;
-    }
-    .swiper-button-next {
-      right: -1rem;
-    }
+
+
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .card__container {
+    max-width: 1120px;
   }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+
+  .swiper-button-next {
+    right: -1rem;
+  }
+}
