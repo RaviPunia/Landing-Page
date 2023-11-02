@@ -312,8 +312,56 @@ nav {
     align-items: center;
 }
 
+/*---------------------- Responsive styling for header Section------------------------- */
+  
+@media only screen and (max-width: 768px) {
+  nav {
+      justify-content: center;
+  }
 
-  /*------------------- Testimonial Small Screen Responsiveness -----------------------*/
+  .content-wrapper {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  #header-text h1 {
+      font-size: 2.5rem;
+      text-align: center;
+  }
+
+  #header-text p {
+      font-size: 1.2rem;
+      text-align: center;
+      br {
+          display: none;
+      }
+  }
+
+  #offer-section-1 {
+      margin-top: 20px;
+      width: 100%; 
+      padding: 20px;
+  }
+
+  #offer-section-1 h2 {
+      font-size: 1.5rem;
+  }
+
+  #offer-section-1 p {
+      font-size: 1rem;
+      text-align: center;
+  }
+
+  .discount {
+      font-size: 4rem;
+  }
+
+  #offer-section-1 input[type="email"], #offer-section-1 button {
+      width: 100%;
+  }
+}
+
+  /*------------------- Responsive styling for testimonial section -----------------------*/
 /* For small devices */
 @media screen and (max-width: 320px) {
     .card__data {
