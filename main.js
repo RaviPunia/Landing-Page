@@ -2,12 +2,20 @@
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxnwwRhliv8FRZsjm5oNWNGzqgBvc7NeInSW7-fFXqtmC56CM_QVDh3pIbKgEbsFBeP/exec'
 const forms = document.querySelectorAll('[name="submit-to-google-sheet"]');
+const thankYouMessage = document.getElementById("thankYouMessage");
+const thankYouMessageFooter = document.getElementById("thankYouMessageFooter");
 
 forms.forEach(form => {
   form.addEventListener('submit', e => {
     e.preventDefault();
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
       .then(response => {
+        thankYouMessage.innerHTML = "Thank You!";
+        thankYouMessageFooter.innerHTML = "Thank You!";
+        setTimeout(function(){
+          thankYouMessage.innerHTML = "";
+          thankYouMessageFooter.innerHTML = "";
+        }, 3000);
         form.reset();
       })
       .catch(error => console.error('Error!', error.message));
