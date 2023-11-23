@@ -463,3 +463,194 @@ footer {
     right: -1rem;
   }
 }
+
+/*------------------- Responsive styling for products section -----------------------*/
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px; 
+  margin: 0 auto;
+}
+
+.container h2{
+  margin-bottom: 75px;
+}
+
+
+.products{
+  background: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+.products h2 {
+  font-size: 2.5rem;
+}
+/* card 1*/
+.card1 {
+  position: relative;
+  width: 700px;
+  height: 350px;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0084D6;
+  transition: 0.5s;
+  margin-right: auto;
+  border-radius: 1.25rem;
+  margin-top: 50px;
+}
+
+.card1 img{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 400px;
+  transition: 0.5s;
+}
+
+.card1:hover img {
+  left: 27%;
+  height: 500px;
+}
+.content
+{
+	position: relative;
+	width: 50%;
+	left: -20%;
+	padding: 20px 20px 20px 40px;
+	opacity: 0;
+	transition: 0.5s;
+	visibility: hidden;
+}
+
+
+.card1:hover .content
+{
+	transition-delay: 0.5s;
+	opacity: 1;
+	visibility: visible;
+	left: 48%;
+}
+.content h2
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2.2em;
+	line-height: 1em;
+}
+.content p
+{
+	color: #fff;
+}
+
+/* card 2*/
+
+.card2 {
+  position: relative;
+  width: 700px;
+  height: 350px;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #0084D6;
+  transition: 0.5s;
+  margin-top: 50px;
+  margin-left: auto;
+  border-radius: 1.25rem;
+}
+
+.card2 img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 400px;
+  transition: 0.5s;
+}
+
+.card2:hover img {
+  left: 73%;
+  height: 500px;
+}
+.content
+{
+	position: relative;
+	width: 50%;
+	left: 20%;
+	padding: 20px 20px 20px 40px;
+	opacity: 0;
+	transition: 0.5s;
+	visibility: hidden;
+}
+
+
+.card2:hover .content
+{
+	transition-delay: 0.5s;
+	opacity: 1;
+	visibility: visible;
+	left: 0;
+}
+
+.content h2
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2.2em;
+	line-height: 1em;
+}
+.content p
+{
+	color: #fff;
+}
+
+@media (max-width: 991px) {
+  .card1, .card2 {
+    width: auto;
+    max-width: 600px;
+    align-items: flex-start;
+  }
+  .card1:hover, .card2:hover {
+    height: 600px;
+  }
+  .card1:hover img, .card2:hover img {
+    left: 50%;
+    height: 350px;
+  }
+  .card1 .content, .card2 .content {
+    width: 100%;
+    left: 0; 
+    padding: 40px;
+  }
+  .card1:hover .content, .card2:hover .content {
+    left: 0; 
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .container .card1, .container .card2 {
+    margin: 40px 20px;
+  }
+  .card1:hover .content, .card2:hover .content {
+    left: 0; 
+  }
+}
+
+@media (max-width: 420px) {
+  .card1 .content, .card2 .content {
+    padding: 30px;
+  }
+  .card1:hover img, .card2:hover img {
+    height: 300px;
+  }
+}
