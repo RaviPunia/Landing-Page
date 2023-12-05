@@ -1,6 +1,6 @@
 /*------------- Form JS ---------------*/
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxnwwRhliv8FRZsjm5oNWNGzqgBvc7NeInSW7-fFXqtmC56CM_QVDh3pIbKgEbsFBeP/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzL4QYjgAOWS7QKSpMiRVS24WTfcn7J3XrmO7hLweUbHc4gmMtQH_p-L0nxL4eukJT91A/exec'
 const forms = document.querySelectorAll('[name="submit-to-google-sheet"]');
 const thankYouMessage = document.getElementById("thankYouMessage");
 const thankYouMessageFooter = document.getElementById("thankYouMessageFooter");
