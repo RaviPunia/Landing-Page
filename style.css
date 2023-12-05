@@ -230,7 +230,7 @@ h3 {
 }
 
 .bg-grey h2 {
-  font-size: 2.5rem;
+  font-size: 2.5rem !important;
   text-align: center;
 }
 
@@ -323,148 +323,7 @@ h3 {
 }
 
 
-/* Footer Section
-  ---------------------------------------*/
-footer {
-  background-color: #0084D6;
-  color: #fff;
-  padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/*---------------------- Responsive styling for header Section------------------------- */
-
-@media only screen and (max-width: 768px) {
-  nav {
-    justify-content: center;
-  }
-
-  .content-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  #header-text h1 {
-    font-size: 2.5rem;
-    text-align: center;
-  }
-
-  #header-text p {
-    font-size: 1.2rem;
-    text-align: center;
-
-    br {
-      display: none;
-    }
-  }
-
-  #offer-section-1 {
-    margin-top: 20px;
-    width: 100%;
-    padding: 20px;
-  }
-
-  #offer-section-1 h2 {
-    font-size: 1.5rem;
-  }
-
-  #offer-section-1 p {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .discount {
-    font-size: 4rem;
-  }
-
-  #offer-section-1 input[type="email"],
-  #offer-section-1 button {
-    width: 100%;
-  }
-}
-
-
-/*------------------- Responsive styling for features section -----------------------*/
-
-@media (max-width: 768px) {
-  .feature-row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .features h2 {
-    font-size: 2rem;
-  }
-
-  .feature-row .img-box,
-  .feature-row .text-box {
-    width: 100%;
-    text-align: center;
-  }
-
-  .feature-row .img-box img {
-    max-width: 70%;
-    margin-bottom: 1rem;
-  }
-
-  .features .content-wrap {
-    padding: 0;
-  }
-
-
-  .feature-row .img-box {
-    order: 1;
-  }
-
-  .feature-row .text-box {
-    order: 2;
-  }
-}
-
-/*------------------- Responsive styling for testimonial section -----------------------*/
-/* For small devices */
-@media screen and (max-width: 320px) {
-  .card__data {
-    padding: 1rem;
-  }
-}
-
-.bg-grey h2 {
-  font-size: 2rem;
-}
-
-/* For medium devices */
-@media screen and (min-width: 768px) {
-  .card__content {
-    margin-inline: 3rem;
-  }
-
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: block;
-  }
-
-
-}
-
-/* For large devices */
-@media screen and (min-width: 1120px) {
-  .card__container {
-    max-width: 1120px;
-  }
-
-  .swiper-button-prev {
-    left: -1rem;
-  }
-
-  .swiper-button-next {
-    right: -1rem;
-  }
-}
-
-/*------------------- Responsive styling for products section -----------------------*/
+/*------------------- products section styling -----------------------*/
 
 .container {
   position: relative;
@@ -610,6 +469,149 @@ footer {
 {
 	color: #fff;
 }
+
+/* Footer Section
+  ---------------------------------------*/
+footer {
+  background-color: #0084D6;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*---------------------- Responsive styling for header Section------------------------- */
+
+@media only screen and (max-width: 768px) {
+  nav {
+    justify-content: center;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #header-text h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #header-text p {
+    font-size: 1.2rem;
+    text-align: center;
+
+    br {
+      display: none;
+    }
+  }
+
+  #offer-section-1 {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #offer-section-1 h2 {
+    font-size: 1.5rem;
+  }
+
+  #offer-section-1 p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .discount {
+    font-size: 4rem;
+  }
+
+  #offer-section-1 input[type="email"],
+  #offer-section-1 button {
+    width: 100%;
+  }
+}
+
+
+/*------------------- Responsive styling for features section -----------------------*/
+
+@media (max-width: 768px) {
+  .feature-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features h2 {
+    font-size: 2rem;
+  }
+
+  .feature-row .img-box,
+  .feature-row .text-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .feature-row .img-box img {
+    max-width: 70%;
+    margin-bottom: 1rem;
+  }
+
+  .features .content-wrap {
+    padding: 0;
+  }
+
+
+  .feature-row .img-box {
+    order: 1;
+  }
+
+  .feature-row .text-box {
+    order: 2;
+  }
+}
+
+/*------------------- Responsive styling for testimonial section -----------------------*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .card__data {
+    padding: 1rem;
+  }
+}
+
+.bg-grey h2 {
+  font-size: 2rem;
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__content {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+
+
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .card__container {
+    max-width: 1120px;
+  }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+
+  .swiper-button-next {
+    right: -1rem;
+  }
+}
+
+/*------------------- Responsive styling for products section -----------------------*/
 
 @media (max-width: 991px) {
   .card1, .card2 {
