@@ -470,6 +470,37 @@ h3 {
 	color: #fff;
 }
 
+/*---------------------- Flash Sale Section Styling ----------------------*/
+
+.flash-sale {
+  background-color: #0084D6;
+  padding: 3rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+.flash-sale .content-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flash-sale-title {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.flash-sale-info {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.flash-sale-instruction {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
 /* Footer Section
   ---------------------------------------*/
 footer {
@@ -654,5 +685,17 @@ footer {
   }
   .card1:hover img, .card2:hover img {
     height: 300px;
+  }
+}
+
+/*----------------------Responsive styling for Flash Sale Section ----------------------*/
+
+@media (max-width: 768px) {
+  .flash-sale-title {
+    font-size: 2rem;
+  }
+
+  .flash-sale-info, .flash-sale-instruction {
+    font-size: 1.2rem;
   }
 }
