@@ -501,6 +501,81 @@ h3 {
   margin-top: 2rem;
 }
 
+#time 
+{
+	display: flex;
+	gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+#time .circle 
+{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+#time .circle::before 
+{
+	content: '';
+	position: absolute;
+	inset: 0;
+	border: 10px solid #ffffff;
+	border-radius: 50%;
+}
+#time .circle::after 
+{
+	content: '';
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	border-radius: 50%;
+	border: 15px solid #0084d6;
+} 
+#time .circle svg 
+{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	transform: rotate(270deg);
+}
+#time .circle svg circle 
+{
+	width: 100%;
+	height: 100%;
+	fill: transparent;
+	stroke-width: 8;
+
+	stroke-linecap: round;
+	transform: translate(5px,5px);
+	stroke-dasharray: 440;
+	stroke-dashoffset: 440;
+}
+#time div
+{
+	position: absolute;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+	z-index: 10000;
+	color: #0084D6;
+	font-size: 1.65em;
+	transform: translateY(-5px);
+}
+#time div span 
+{
+	position: absolute;
+	transform: translateX(-50%) translateY(-15px);
+	font-size: 0.25em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+}
+
 /* Footer Section
   ---------------------------------------*/
 footer {
