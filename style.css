@@ -767,4 +767,11 @@ footer {
   .flash-sale-info, .flash-sale-instruction {
     font-size: 1.2rem;
   }
+
+  #time {
+    flex-direction: column; 
+    gap: 15px;
+  }
+
+
 }

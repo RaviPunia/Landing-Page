@@ -1,6 +1,6 @@
 /*------------- Form JS ---------------*/
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzL4QYjgAOWS7QKSpMiRVS24WTfcn7J3XrmO7hLweUbHc4gmMtQH_p-L0nxL4eukJT91A/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz49lwqJsGPOYYTxyC5G8NXgtJ58OBNAUfUftu0LPh_SDJjo9SuIf4BEjHSR9Iu5ZgrwQ/exec'
 const forms = document.querySelectorAll('[name="submit-to-google-sheet"]');
 const thankYouMessage = document.getElementById("thankYouMessage");
 const thankYouMessageFooter = document.getElementById("thankYouMessageFooter");
@@ -51,7 +51,7 @@ let swiperCards = new Swiper(".card__content", {
   },
 });
 
-
+/*------------- Countdown timer Js ---------------*/
 
 let hours = document.getElementById('hours');
 let minutes = document.getElementById('minutes');
