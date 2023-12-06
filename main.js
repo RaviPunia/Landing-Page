@@ -50,3 +50,49 @@ let swiperCards = new Swiper(".card__content", {
     },
   },
 });
+
+
+
+let hours = document.getElementById('hours');
+let minutes = document.getElementById('minutes');
+let seconds = document.getElementById('seconds');
+
+// Function to set or get the end date
+function getOrSetEndDate() {
+    // Check if the end date is stored in localStorage
+    let storedEndDate = localStorage.getItem('endDate');
+    if (storedEndDate) {
+        return new Date(storedEndDate);
+    } else {
+        // If not, set a new end date 24 hours from now and store it
+        let endDate = new Date();
+        endDate.setHours(endDate.getHours() + 24);
+        localStorage.setItem('endDate', endDate);
+        return endDate;
+    }
+}
+
+let endDate = getOrSetEndDate();
+
+let x = setInterval(function(){
+    let now = new Date().getTime();
+    let distance = endDate - now;
+
+    // Time calculation for hours, minutes, and seconds
+    let h = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let m = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let s = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // Output the result in elements with respective IDs
+    hours.innerHTML = h + "<br><span>Hours</span>";
+    minutes.innerHTML = m + "<br><span>Minutes</span>";
+    seconds.innerHTML = s + "<br><span>Seconds</span>";
+
+    // If the countdown is over, reset it
+    if(distance < 0){
+        endDate = new Date();
+        endDate.setHours(endDate.getHours() + 24);
+        localStorage.setItem('endDate', endDate);
+    }
+});
+

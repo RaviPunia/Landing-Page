@@ -537,13 +537,7 @@ h3 {
 	border-radius: 50%;
 	border: 15px solid #0084d6;
 } 
-#time .circle svg 
-{
-	position: relative;
-	width: 150px;
-	height: 150px;
-	transform: rotate(270deg);
-}
+
 #time .circle svg circle 
 {
 	width: 100%;
