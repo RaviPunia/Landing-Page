@@ -9,6 +9,21 @@ COLOR PALETTE
 ##ff9529 - Yellow
 */
 
+/*------------------- INDEX-------------------
+1. Global styles
+2. Header styling 
+3. Features section styling
+4. Testimonial section styling
+5. Products section styling
+6. Flash Sale Section Styling
+7. Footer Section Styling
+8. Responsive styling for header Section
+9. Responsive styling for features section
+10. Responsive styling for testimonial section
+11. Responsive styling for products section
+12. Responsive styling for Flash Sale Section
+*/
+
 /* 1. Global styles
 ---------------------------------------*/
 
@@ -29,7 +44,7 @@ a {
   text-decoration: none;
 }
 
-/* Main header styling 
+/* 2. Header styling 
 ---------------------------------------*/
 header {
   background-color: #0084D6;
@@ -153,7 +168,7 @@ h3 {
   background-color: #0096f3;
 }
 
-/* Features section styling 
+/* 3. Features section styling 
 ---------------------------------------*/
 
 .features {
@@ -221,7 +236,7 @@ h3 {
 }
 
 
-/* Testimonial section styling 
+/* 4. Testimonial section styling 
 ---------------------------------------*/
 
 .bg-grey {
@@ -323,7 +338,8 @@ h3 {
 }
 
 
-/*------------------- products section styling -----------------------*/
+/* 5. Products section styling 
+  ---------------------------------------*/
 
 .container {
   position: relative;
@@ -470,7 +486,8 @@ h3 {
 	color: #fff;
 }
 
-/*---------------------- Flash Sale Section Styling ----------------------*/
+/* 6. Flash Sale Section Styling 
+  ---------------------------------------*/
 
 .flash-sale {
   background-color: #0084D6;
@@ -570,7 +587,7 @@ h3 {
 	letter-spacing: 0.1em;
 }
 
-/* Footer Section
+/* 7. Footer Section Styling
   ---------------------------------------*/
 footer {
   background-color: #0084D6;
@@ -581,7 +598,7 @@ footer {
   align-items: center;
 }
 
-/*---------------------- Responsive styling for header Section------------------------- */
+/*---------------------- 8. Responsive styling for header Section------------------------- */
 
 @media only screen and (max-width: 768px) {
   nav {
@@ -633,7 +650,7 @@ footer {
 }
 
 
-/*------------------- Responsive styling for features section -----------------------*/
+/*------------------- 9. Responsive styling for features section -----------------------*/
 
 @media (max-width: 768px) {
   .feature-row {
@@ -670,7 +687,7 @@ footer {
   }
 }
 
-/*------------------- Responsive styling for testimonial section -----------------------*/
+/*------------------- 10. Responsive styling for testimonial section -----------------------*/
 /* For small devices */
 @media screen and (max-width: 320px) {
   .card__data {
@@ -711,7 +728,7 @@ footer {
   }
 }
 
-/*------------------- Responsive styling for products section -----------------------*/
+/*------------------- 11. Responsive styling for products section -----------------------*/
 
 @media (max-width: 991px) {
   .card1, .card2 {
@@ -757,7 +774,7 @@ footer {
   }
 }
 
-/*----------------------Responsive styling for Flash Sale Section ----------------------*/
+/*---------------------- 12. Responsive styling for Flash Sale Section ----------------------*/
 
 @media (max-width: 768px) {
   .flash-sale-title {
@@ -772,6 +789,4 @@ footer {
     flex-direction: column; 
     gap: 15px;
   }
-
-
 }
