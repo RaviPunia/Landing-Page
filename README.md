@@ -4,7 +4,7 @@
 This repository contains the code for the landing page of DopeShop.shop. The primary purpose of this landing page is to capture visitor email addresses. In exchange for their email, visitors receive a 25% discount on their first purchase. The discount coupon is sent directly to the provided email address, encouraging user engagement and conversion.
 
 ## Accessing the Landing Page
-To view the landing page, visit www.DopeShop.shop/Landing-Page.
+To view the landing page, visit landing-page.dopeshop.shop/
 
 ## Features
 **Email Capture Mechanism:** A simple and user-friendly interface for visitors to submit their email addresses.
